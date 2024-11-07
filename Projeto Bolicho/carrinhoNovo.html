@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/bootstrap.min.js"></script>
+
+    <title>Carrinho</title>
+</head>
+
+<body id="corFundo">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 d-flex justify-content-between align-items-center p-4" id="voltar">
+                <a href="#" class="text-dark text-decoration-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                        class="bi bi-arrow-left p-0" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                    </svg>
+                </a>
+            </div>
+            <div class="col-12 text-center mt-2">
+                <h4>Carrinho de Compras</h4>
+            </div>
+            <div class="col-12 mt-2">
+                <h6>Descrição</h6>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center mt-3" id="imagemCarrinho"> <!--IMAGEM PRODUTO ESCOLHIDO-->
+                        <img src=". . ." class="produto-carrinho img-fluid w-25 h-75">
+                        <div class="descricao-carrinho ms-3" id="descricaoCarrinho"></div> <!--NOME PRODUTO ESCOLHIDO-->
+                        <div class="descricao-carrinho ms-3" id="precoCarrinho"></div>   <!--PREÇO PRODUTO ESCOLHIDO-->
+                        
+                    
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="">
+                        <h6>Formas de Pagamento:</h6>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <select class="form-select form-select-sm" aria-label="Small select example">
+                                    <option>Selecione:</option>
+                                    <option value="1">PIX</option>
+                                    <option value="2">Cartão de Crédito</option>
+                                    <option value="3">Cartão de Débito</option>
+                                    <option value="4">Dinheiro</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-end">
+                <div class="col-md-2 mt-4" id="zerar">
+                    <a href="#" class="d-flex justify-content-center align-items-center bg-success text-black p-2 border rounded fs-6 w-100 fw-bold text-decoration-none">
+                        Zerar Itens
+                    </a>
+                </div>
+            </div>
+            
+            
+                      
+            <div class="row justify-content-end">
+                <div class="col-md-4 mt-4 small">
+                    <div class="d-flex justify-content-end align-items-center bg-light p-2 border rounded">
+                        
+                        <div id="valor-total" class="fw-bold"> <span>Total:</span> </div> <!--ID PARA FAZER A SOMA DO VALOR DOS ITENS-->
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12 mt-4">
+                    <div id="botao-confirme">
+                        <a class="btn btn-success w-100" href="dados.php">Confirme seus dados</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-12">
+                    <a href="home.html" id="botao-home">
+                        <img src="IMAGENS CATEGORIAS/botao-home (1).png">
+                    </a>
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col-12">
+                    <a href="carrinhoNovo.html" id="botao-home">
+                        <img src="IMAGENS CATEGORIAS/botao-carrinho.png" height="40px" width="40px">
+                    </a>
+                </div>
+            </div>
+
+            
+
+
+
+        </div>
+    </div>
+    <script src="JavaScript.js"></script>  
+</body>
+</html>

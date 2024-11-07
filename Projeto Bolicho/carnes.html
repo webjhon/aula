@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/bootstrap.min.js"></script>
+
+    <title>Carnes</title>
+</head>
+
+<body id="corFundo">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-between align-items-center p-4">
+                <a href="home.html" id="voltar" class="text-dark text-decoration-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                        class="bi bi-arrow-left p-0" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                    </svg>
+                </a>
+                <a href="#" class="text-dark text-decoration-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                        class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                        <path fill-rule="evenodd"
+                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center mt-1">
+                <h5 class="text-success">Carnes</h5>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-8">
+                            <img id="imagem-costela-suina" src="IMAGENS CATEGORIAS/Comidas/Carnes/Carne Suína.png"
+                                class="img-fluid rounded-start ms-4" alt="Costela Suína">
+                        </div>
+
+                        <div class="col-md-4 d-flex justify-content-between align-items-center">
+                            <div>
+                                <p id="descricao-costela-suina" class="small mb-1">Costela Suína (c/ osso) (kg)</p>
+                                <h6 id="preco-costela-suina" class="small mb-1">R$22,00</h6>
+                            </div>
+
+                            <button id="adicionar-costela-suina" class="botao-sacola">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-8">
+                            <img id="imagem-contrafile-bovino" src="IMAGENS CATEGORIAS/Comidas/Carnes/Contrafilé Bovino.png"
+                                class="img-fluid rounded-start ms-4" alt="Contrafilé Bovino">
+                        </div>
+
+                        <div class="col-md-4 d-flex justify-content-between align-items-center">
+                            <div>
+                                <p id="descricao-contrafile-bovino" class="small mb-1">Contrafilé Bovino (kg)</p>
+                                <h6 id="preco-contrafile-bovino" class="small mb-1">R$55,00</h6>
+                            </div>
+
+                            <button id="adicionar-contrafile-bovino" class="botao-sacola">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-8">
+                            <img id="imagem-peito-frango" src="IMAGENS CATEGORIAS/Comidas/Carnes/Peito de Frango.png"
+                                class="img-fluid rounded-start ms-4" alt="Peito de Frango">
+                        </div>
+
+                        <div class="col-md-4 d-flex justify-content-between align-items-center">
+                            <div>
+                                <p id="descricao-peito-frango" class="small mb-1">Peito de Frango Seara (1kg)</p>
+                                <h6 id="preco-peito-frango" class="small mb-1">R$9,00</h6>
+                            </div>
+
+                            <button id="adicionar-peito-frango" class="botao-sacola">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <a href="home.html" id="botao-home">
+                    <img src="IMAGENS CATEGORIAS/botao-home (1).png">
+                </a>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-12">
+                <a href="carrinhoNovo.html" id="botao-home">
+                    <img src="IMAGENS CATEGORIAS/botao-carrinho.png" height="40px" width="40px">
+                </a>
+            </div>
+        </div>
+       
+
+    <script src="JavaScript.js"></script>
+</body>
+
+</html>
