@@ -1,0 +1,20 @@
+li{
+    display: inline;
+}
+
+.menuPrincipal{
+    display: flex;
+}
+
+.submenu{
+    display: block;
+    display: none;
+}
+
+.sublista:focus-within .submenu {
+    display: block;
+}
+
+
+
+
