@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/bootstrap.min.js"></script>
+    <title>Higiene</title>
+</head>
+
+<body id="corFundo">
+    <div class="container">
+        <!-- Navegação -->
+        <div class="row">
+            <div class="col-12 d-flex justify-content-between align-items-center p-4">
+                <a href="home.html" class="text-dark text-decoration-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-left p-0" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                    </svg>
+                </a>
+                <a href="#" class="text-dark text-decoration-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <!-- Título -->
+        <div class="row">
+            <div class="col-12 text-center mt-1">
+                <h5 class="text-success">Higiene</h5>
+            </div>
+        </div>
+
+        <!-- Cartão do Shampoo -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-8">
+                            <img id="imagem-shampoo" src="IMAGENS CATEGORIAS/Produtos de Higiene/Shampoo Palmolive.png" class="img-fluid rounded-start ms-4" alt="Shampoo Palmolive Naturals (350ml)">
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-between align-items-center">
+                            <div>
+                                <p id="descricao-shampoo" class="small mb-1">Shampoo Palmolive Naturals (350ml)</p>
+                                <h6 id="preco-shampoo" class="small mb-1">R$15,00</h6>
+                            </div>
+                            <button id="adicionar-higiene1" class="botao-sacola">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
+                                    <path d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cartão do Desodorante -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-8">
+                            <img id="imagem-desodorante" src="IMAGENS CATEGORIAS/Produtos de Higiene/Desodorante Dove Original.png" class="img-fluid rounded-start ms-4" alt="Desodorante Dove Original (150ml)">
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-between align-items-center">
+                            <div>
+                                <p id="descricao-desodorante" class="small mb-1">Desodorante Dove Original (150ml)</p>
+                                <h6 id="preco-desodorante" class="small mb-1">R$12,00</h6>
+                            </div>
+                            <button id="adicionar-higiene2" class="botao-sacola">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
+                                    <path d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cartão do Creme Dental -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-8">
+                            <img id="imagem-creme-dental" src="IMAGENS CATEGORIAS/Produtos de Higiene/Creme Dental Close Up Fresh.png" class="img-fluid rounded-start ms-4" alt="Creme Dental Close Up Fresh (90g)">
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-between align-items-center">
+                            <div>
+                                <p id="descricao-creme-dental" class="small mb-1">Creme Dental Close Up Fresh (90g)</p>
+                                <h6 id="preco-creme-dental" class="small mb-1">R$9,00</h6>
+                            </div>
+                            <button id="adicionar-higiene3" class="botao-sacola">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
+                                    <path d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cartão do Sabonete -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-8">
+                            <img id="imagem-sabonete" src="IMAGENS CATEGORIAS/Produtos de Higiene/Sabonete Lux.png" class="img-fluid rounded-start ms-4" alt="Sabonete Lux (90g)">
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-between align-items-center">
+                            <div>
+                                <p id="descricao-sabonete" class="small mb-1">Sabonete Lux (90g)</p>
+                                <h6 id="preco-sabonete" class="small mb-1">R$6,00</h6>
+                            </div>
+                            <button id="adicionar-higiene4" class="botao-sacola">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
+                                    <path d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <a href="home.html" id="botao-home">
+                <img src="IMAGENS CATEGORIAS/botao-home (1).png">
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <a href="carrinhoNovo.html" id="botao-home">
+                <img src="IMAGENS CATEGORIAS/botao-carrinho.png" height="40px" width="40px">
+            </a>
+        </div>
+    </div>
+
+    <script src="JavaScript.js"></script>
+</body>
+
+</html>
